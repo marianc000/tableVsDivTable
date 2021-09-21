@@ -1,0 +1,73 @@
+td,.row,.frow {
+    height: 20px;
+}
+ 
+tr:first-child>td {
+    width: 5%;
+}
+
+td, .row>div, .frow>div {
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    padding: 0;
+    /* overflow:clip; */
+}
+
+.row>div {
+    display: inline-block;
+}
+
+.row>div,.frow>div {
+    width: 5%;
+}
+
+.frow {
+    display: flex;
+}
+ 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table.results {
+    margin-bottom: 2em;
+    width: auto;
+}
+
+.results  th, .results td {
+    padding: 0.5em;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: initial;
+}
+
+.results td:first-child {
+    text-align: left;
+}
+/* .results tr:first-child>td {
+    width: auto;
+} */
+
+* {
+    font-family: arial;
+}
+
+caption {
+    font-size: 1.5em;
+}
+
+.controls {
+    margin-bottom: 1em;
+}
+
+button.selected {
+    background-color: palegreen;
+}
+
+#startBtn {
+    margin-left: 2em;
+    background-color: orange;
+}

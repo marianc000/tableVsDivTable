@@ -1,0 +1,73 @@
+table {
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+* {
+    font-family: arial;
+}
+
+caption, .caption {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.controls {
+    display: inline-block;
+}
+
+.main {
+    text-align: center;
+}
+
+button {
+    margin-left: 2em;
+}
+
+.container>div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2em;
+}
+
+.row>div {
+    display: inline-block;
+}
+
+.row>div, .flexRow>div {
+    width: 2.7em;
+    text-align: center;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.row>div:first-child,.flexRow>div:first-child {
+    width: 11em;
+    text-align: left;
+}
+
+.row>div:last-child,.flexRow>div:last-child {
+    width: 10.2em;
+}
+
+.row:first-child, .flexRow:first-child {
+    font-weight: bold;
+}
+
+.row, .flexRow {
+    border-bottom: 1px solid gainsboro;
+}
+
+.flexRow {
+    display: flex;
+}
