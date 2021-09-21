@@ -1,9 +1,9 @@
-import data from '../data.js';
+import data from './data.js';
 
 
 function row(vals) {
     return '<div class="row">'
-        + vals.map(val => `<div title="${val}">${val}</div>`).join('')
+        + vals.map(val => `<div>${val}</div>`).join('')
         + '</div>';
 }
 

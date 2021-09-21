@@ -1,4 +1,4 @@
-const COL_COUNT = 20, ROW_COUNT =  5000;
+const COL_COUNT = 20, ROW_COUNT =  500;
  
 function generateData() {
     const rows = [];

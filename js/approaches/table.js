@@ -1,8 +1,8 @@
-import data from '../data.js';
+import data from './data.js';
 
 function row(vals, i) {
         return '<tr>'
-            + vals.map(val => `<td title="${val}">${val}</td>`).join('')
+            + vals.map(val => `<td>${val}</td>`).join('')
             + '</tr>';
 }
 

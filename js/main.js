@@ -6,7 +6,10 @@ import table from './approaches/table.js';
 
 const approaches = { divs, table, flexDivs };
 
-startBtn.onclick = run;
+startBtn.onclick = ()=>{
+    document.querySelector('.controls').remove();
+    run();
+}
 
 const buttons = document.querySelectorAll('button[name]');
 buttons.forEach(btn => btn.onclick = onClick);

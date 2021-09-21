@@ -1,7 +1,7 @@
- 
+
 
 export let results = {};
- 
+
 
 function addResult(label, start, domDone, rendered) {
     results[label] = results[label] ?? [];
@@ -9,6 +9,7 @@ function addResult(label, start, domDone, rendered) {
 }
 
 export function execute(label, html) {
+    console.log('executing', label);
     return new Promise(resolve => {
         try {
             gc(); // will not work without flags
@@ -18,7 +19,7 @@ export function execute(label, html) {
 
         requestAnimationFrame(() => {
             const start = Date.now();
-            root.innerHTML = html ;
+            root.innerHTML = html;
             const domDone = Date.now();
             setTimeout(() => {
                 addResult(label, start, domDone, Date.now());

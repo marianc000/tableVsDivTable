@@ -7,7 +7,7 @@ import clear from './clear.js';
 import {  execute } from './shared.js';
 
 export default function run() {
-    const times = 20;
+    const times =10;
     let p = Promise.resolve().then(clear); 
  
     for (let i = 0; i < times; i++) {
