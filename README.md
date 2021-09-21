@@ -1,3 +1,4 @@
-# What is faster to insert into DOM— HTML or DOM nodes?
+# Important difference between standard HTML tables and div tables
+And a critical difference between div tables
 
-Sample code for my post https://marian-caikovski.medium.com/what-is-faster-to-insert-into-dom-html-or-dom-nodes-ff11586f8570 comparing performance of innerHTML, insertAdjacentHTML(), appendChild(), append(), prepend(), insertAdjacentElement() and replaceChildren()
+Sample code for my post https://marian-caikovski.medium.com/important-difference-between-standard-html-tables-and-div-tables-b6b094ec2c79 comparing performance of standard HTML tables and div tables
